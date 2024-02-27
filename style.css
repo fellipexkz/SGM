@@ -4,24 +4,63 @@ body {
   font-family: system-ui;
 }
 
-h1 {
+#default-form {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+
 }
 
-a {
-    text-decoration: none;
+#default-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#default-form h1 {
+    margin: 10px;
+    font-size: 24px;
+}
+
+#default-form input {
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+
+#default-form button {
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007fff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#default-form button:hover {
+    background-color: #0056b3;
+}
+
+#default-form a {
+    margin: 10px;
+    font-size: 14px;
     color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    text-decoration: none;
 }
 
-a:hover {
-    color: blue;
+#default-form a:hover {
+    color: #007fff;
 }
