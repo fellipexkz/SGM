@@ -38,6 +38,10 @@ body {
     border-radius: 5px;
 }
 
+#default-form p {
+    color: red;
+}
+
 #default-form button {
     margin: 10px;
     padding: 10px;
@@ -63,4 +67,8 @@ body {
 
 #default-form a:hover {
     color: #007fff;
+}
+
+.error p {
+    color: red;
 }

@@ -9,20 +9,21 @@
 <body>
 
     <div id="default-form">
-    <form>
+    <form action="save.php" method="POST">
         <h1>Cadastro de  usuário</h1>
         
-        <label for="username">Usuário:</label>
-        <input type="text" id="username" name="username" required><br>
+        <label for="user">Usuário:</label>
+        <input type="text" id="user" name="user" required><br>
         
         <label for="password">Senha:</label>
         <input type="password" id="password" name="password" required><br>
         
         <button type="submit">Cadastrar</button>
-        <a href="index.html">Voltar</a>
+        <a href="index.php">Voltar</a>
     </form>
 
     </div>
 
 </body>
 </html>
+
