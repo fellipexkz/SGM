@@ -1,10 +1,10 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: system-ui;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
 }
 
-#default-form {
+.default-form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,7 +14,7 @@ body {
 
 }
 
-#default-form form {
+.default-form form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,12 +25,12 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#default-form h1 {
+.default-form h1 {
     margin: 10px;
     font-size: 24px;
 }
 
-#default-form input {
+.default-form input {
     margin: 10px;
     padding: 10px;
     width: 300px;
@@ -38,11 +38,11 @@ body {
     border-radius: 5px;
 }
 
-#default-form p {
+.default-form p {
     color: red;
 }
 
-#default-form button {
+.default-form button {
     margin: 10px;
     padding: 10px;
     width: 300px;
@@ -54,21 +54,120 @@ body {
     cursor: pointer;
 }
 
-#default-form button:hover {
+.default-form button:hover {
     background-color: #0056b3;
 }
 
-#default-form a {
+.default-form a {
     margin: 10px;
     font-size: 14px;
     color: black;
     text-decoration: none;
 }
 
-#default-form a:hover {
+.default-form a:hover {
     color: #007fff;
 }
 
 .error p {
     color: red;
+}
+
+.home_container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.home_container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.home_container p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.home_container button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007fff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.home_container button:hover {
+    background-color: #0056b3;
+}
+
+.home_container a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555;
+    text-decoration: none;
+}
+
+.home_container a:hover {
+    color: #000;
+}
+
+.sale_page h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #5C6BC0;
+}
+
+.sale_page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+}
+
+.sale_page div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.sale_page label {
+    margin-bottom: 5px;
+}
+
+.sale_page input[type="number"],
+.sale_page input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.sale_page input[type="button"],
+.sale_page input[type="submit"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5C6BC0;
+    color: #fff;
+    cursor: pointer;
+}
+
+.sale_page input[type="button"]:hover,
+.sale_page input[type="submit"]:hover {
+    background-color: #7986CB;
 }

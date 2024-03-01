@@ -9,15 +9,16 @@
 <html>
 <head>
     <title>Home Page</title>
-    <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="home_container">
         <h1>Bem vindo</h1>
 
         <p>Olá, <?php echo $_SESSION['login_user']; ?></p>
 
-        <a href="venda.php"><button>Iniciar Venda</button></a>
+        <a href="sale.php"><button>Iniciar Venda</button></a>
+        <a href="stock.php"><button>Estoque</button></a>
         <a href="logout.php">Logout</a>
     </div>
 </body>

@@ -40,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <body>
 
-    <div id="default-form">
+    <div class="default-form">
         <form action="index.php" method="post">
             <h1>SGM</h1>
             <label for="user">Usuário:</label>
